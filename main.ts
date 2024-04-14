@@ -1,3 +1,42 @@
+// Qno.2
+let personName: string= "Maryam";
+console.log(`Hello ${personName}, Would you like to learn some typescript today?`);
+// Qno.3
+let personName: string = "Maryam"
+console.log("lowercase:", personName.toLocaleLowerCase());
+console.log("uppercase:", personName.toLocaleUpperCase());
+console.log("titlecase:", personName.replace(/\bw/g,c =>c.toUpperCase()));
+// Qno.4
+let quote: string= "Knowledge is power.";
+let author: string="Sir Francis Bacon";
+console.log(`${author}once said, "${quote}`);
+// Qno.5
+let quote: string= "Knowledge is power.";
+let famous_person="Sir Francis Bacon";
+let message=`${famous_person} once said, "${quote}`
+console.log(message);
+// Qno.6
+let personName: string =`\n\t MARYAM QAISER\n\t`;
+console.log(personName);
+let stripped: string = personName.trim();
+console.log(stripped);
+// Qno.7,8
+// Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
+
+console.log(5 + 3)
+console.log(11 - 3)
+console.log(4 * 2)
+console.log(16 / 2)
+// Qno.9
+let favorite_number: number = 4;
+console.log(`my favorite number is ${favorite_number}`);
+// // Qno.10
+// //exercise no.10
+// //My name is Maryam
+// //Date : 14-03-2024
+// //This program will run simple code Hello world
+console.log('Hello world');
+
 // Qno.11
 let members: string[] =['Samia', 'Zeba', 'Saba', 'Noor'];
 for(let i=0; i<members.length; i++){
@@ -16,7 +55,7 @@ let transportation : string [] = ["Toyota","Honda", "Bike", "Bus"];
 for(let i=0; i<transportation.length; i++)
 {
 console.log("I would like to own a " + transportation[i]);
-}*/
+}
 
 //Qno.14
 let guest_list: string[] = ["Saba", "farhan", "Hiba", "Sana"];
@@ -102,9 +141,9 @@ let mountains : string[] = ['Mount Everest','K2','Nanga Parbat', 'Koyo Zom']
 //Qno.21
 let person : {name: string, fname: string, age: number} = {name: "Maryam", fname: "Female", age: 30}
 console.log(person)
-Qno.22
+//Qno.22
 const days : string [] = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-// console.log(days{7});
+console.log(days[7]);
 console.log(days[6]);
 
 //Qno.23
@@ -529,7 +568,6 @@ function carInfo(manufacturer: string, modelName: string, options: Partial<Car>)
 const car = carInfo('Toyota', 'Corolla', { color: 'blue', year: 2022 });
 // Print the returned object
 console.log(car);
-
 
 
 
